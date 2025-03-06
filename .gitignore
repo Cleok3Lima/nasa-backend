@@ -1,0 +1,33 @@
+# 🚀 Ignorar dependências do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 🚀 Ignorar ambientes virtuais
+venv/
+.env/
+.env.local
+.env.production
+.env.development
+.env.test
+
+# 🚀 Ignorar arquivos de logs e cache
+logs/
+*.log
+debug.log
+*.sqlite3
+*.db
+
+# 🚀 Ignorar arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# 🚀 Ignorar configurações do VS Code e do PyCharm
+.vscode/
+.idea/
+
+# 🚀 Ignorar arquivos de build e pacotes do Python
+dist/
+build/
+*.egg-info/
